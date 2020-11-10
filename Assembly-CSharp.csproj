@@ -63,8 +63,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\ParrelSync\Examples\CustomArgumentExample.cs" />
-    <Compile Include="Assets\Scripts\GridMovement.cs" />
-    <Compile Include="Assets\Scripts\MaterialInstance.cs" />
+    <Compile Include="Assets\Scripts\NetworkManagerCustom.cs" />
+    <Compile Include="Assets\Scripts\Player\EmoteManager.cs" />
+    <Compile Include="Assets\Scripts\Player\GridMovement.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerNetInit.cs" />
+    <Compile Include="Assets\Scripts\Rendering\BillboardManager.cs" />
     <Compile Include="Assets\Scripts\Toolbox\Camera\CameraController.cs" />
     <Compile Include="Assets\Scripts\Toolbox\Camera\CameraFollowTarget.cs" />
     <Compile Include="Assets\Scripts\Toolbox\Camera\CameraFreeRotate.cs" />

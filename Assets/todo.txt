@@ -1,9 +1,4 @@
 
-8 directional movement with special rules for arrow keys and controller
--Up/Down/Left/Right Arrows in 45 degree view moves them diagonally.
-
-New Input System
-
 Check for an open spot on the grid before moving (check actual space with rigidbody? or check an array?)
 
 When attempting to move diagonally, if spot is blocked, and only one ortho spot is open, move that direction.
@@ -16,6 +11,7 @@ In this case, dont move as a specific direction is not able to be inferred
 ---> <>
  <> *
 
+ [Determined on Client Side]
  With entities that face a direction:
  - Set that direction from movement
  - Compare facing direction to camera direction to determine flipX for materialPropertyBlock
